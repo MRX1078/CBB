@@ -1,0 +1,173 @@
+.container {
+    width: 390px;
+    background-color: white;
+    height: 844px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 390px;
+    height: 125px;
+    background-color: #F3F2F2;
+    border-bottom: 2px #DEDEDE solid;
+}
+
+.navigateOne {
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    color: #096C1A;
+    padding-left: 10px;
+    padding-bottom: 20px;
+
+}
+
+.navigateTwo {
+    font-size: 20px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 400;
+    color:rgba(0, 0, 0, 0.67);
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+
+.centr {
+    display: flex;
+}
+
+.left {
+    padding-left: 10px;
+    margin-bottom: 4px;
+    outline: none;
+    text-decoration: none;
+    color: #096C1A;;
+
+}
+
+.right {
+    padding-right: 10px;
+    margin-bottom: 4px;
+    outline: none;
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.67);
+}
+
+.title {
+    color: black;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 269px;
+    padding-top: 40px;
+}
+
+.description {
+    color: black;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    width: 295px;
+    padding-top: 21px;
+}
+
+.uploadFace {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 68px;
+    grid-gap:5%;
+    width: 330px;
+
+}
+
+.textUpload {
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.uploadBack {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 68px;
+    grid-gap: 25px;
+    width: 330px;
+}
+
+.button {
+    width: 268px;
+    height: 44px;
+    background-color: #78AE81;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    color:#F5F5F5;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    background-color: #78AE81;
+    width: 211px;
+    height: 32px;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.buttonContainer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.submit {
+    width: 268px;
+    height: 44px;
+    background-color: #78AE81;
+    border-radius: 16px;
+    outline: none;
+    border: none;
+    color:#F5F5F5;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+p {
+    font-family: 'Manrope', sans-serif;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.name {
+    color: #78AE81;
+}
+
+.nameFile {
+    color: black;
+}
